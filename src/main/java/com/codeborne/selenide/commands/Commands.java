@@ -108,6 +108,7 @@ public class Commands {
     add("selectOption", new SelectOptionByTextOrIndex());
     add("selectOptionContainingText", new SelectOptionContainingText());
     add("selectOptionByValue", new SelectOptionByValue());
+    add("deselectOption", new DeselectOptionByTextOrIndex());
   }
 
   private void addFileCommands() {
